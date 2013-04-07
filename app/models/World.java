@@ -10,6 +10,14 @@ import siena.Generator;
 
 public class World extends EnhancedModel  {
 
+	public World(long i, long number) {
+		id = i;
+		randomNumber = new Long(number);
+	}
+	
+	public World() {
+	}
+
 	@Id(Generator.NONE)
 	public Long id ;
 	

@@ -1,2 +1,2 @@
-FrameworkBenchmarks-play1.2.5-siena
-===================================
+FrameworkBenchmarks-play1.2.5
+=============================
