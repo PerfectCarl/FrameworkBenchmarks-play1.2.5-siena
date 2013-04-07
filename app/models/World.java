@@ -1,17 +1,19 @@
 package models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import play.modules.siena.EnhancedModel;
+import siena.Column;
+import siena.Generator;
+import siena.Id;
 
-import play.db.jpa.Model;
+import play.modules.siena.EnhancedModel;
+import siena.Generator;
 
-import com.google.gson.annotations.SerializedName;
+public class World extends EnhancedModel  {
 
-@Entity
-public class World extends Model {
-
-    @Column(name = "randomNumber")
-    public Long randomNumber;
+	@Id(Generator.NONE)
+	public Long id ;
+	
+	@Column("randomNumber")
+	public Long randomNumber;
 
 }
