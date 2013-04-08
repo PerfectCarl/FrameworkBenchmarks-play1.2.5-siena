@@ -3,4 +3,3 @@
 require:
     - play
     - play -> siena 2.0.7
-    - mysql -> mysql-connector-java 5.1.20
